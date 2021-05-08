@@ -1,8 +1,12 @@
+import {Component} from 'react'
+
 export default class Home extends Component {
     
     render() {
-       <>
-       <h1>Spell Here</h1>
-       </>
+        return(
+            <>
+                <h1>Spell Here</h1>
+            </>
+        ) 
     }
 }
